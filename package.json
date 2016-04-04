@@ -4,6 +4,7 @@
     "node": ">=0.12.0"
   },
   "devDependencies": {
+    "gulp-gh-pages": "^0.5.4"
   },
   "dependencies": {
     "babel-core": "^6.4.0",

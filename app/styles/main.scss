@@ -1,14 +1,13 @@
 $green: #83C33B;
 $brand-primary: $green;
 
-@import url(https://fonts.googleapis.com/css?family=Asap:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 
 
-$font-family-sans-serif: 'Asap';
+$font-family-sans-serif: 'Lato';
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 
 // bower:scss
 @import "bower_components/bootstrap/scss/bootstrap.scss";
 // endbower
-

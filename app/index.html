@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <meta property="fb:app_id" content=""> -->
+    <meta property="fb:app_id" content="651134118357870">
 
     <meta name="twitter:title" content="João Pedro Netto">
     <meta name="twitter:description" content="Web developer">
@@ -46,6 +46,24 @@
   <body>
     <!--[if lt IE 10]>
     <![endif]-->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '651134118357870',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <div class="container">
       <a href="#" class="image avatar"><img src="images/avatar-alt.jpg" alt="" /></a>
 
@@ -81,8 +99,17 @@
       <h3 class="fa fa-envelope-o"><span class="label">Email</span></h3>
       <a href="mailto:hi@joaonetto.me">hi@joaonetto.me</a>
 
-
       <p class="copyright">&copy; 2011-2015</p>
+
+      <h4>
+        <div
+          class="fb-like"
+          data-share="true"
+          data-width="450"
+          data-show-faces="true">
+        </div>
+      </h4>
+
     </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

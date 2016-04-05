@@ -6,8 +6,8 @@ $gray: #f6f6f6;
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 
-
 $font-family-sans-serif: 'Source Sans Pro';
+$headings-font-weight: 700;
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 
 // bower:scss
@@ -16,6 +16,21 @@ $font-family-sans-serif: 'Source Sans Pro';
 
 .image.avatar > img {
   width: 350px;
+}
+
+section.home-section {
+  text-align: center;
+
+  .container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    h1, p {
+      display: block;
+    }
+  }
 }
 
 
